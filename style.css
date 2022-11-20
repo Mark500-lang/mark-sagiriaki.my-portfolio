@@ -1,0 +1,130 @@
+.navbar{  
+    background-color: #e9ecef;
+}
+nav ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    list-style: none;
+}
+nav a{
+    color: #444;
+    text-transform: uppercase;
+}
+.navbar-logo{
+    color: #333;
+}
+.nav-item{
+    color: black;
+    margin: 5px;
+    padding-top: 15px;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    position: relative;
+}
+.nav-item:hover{
+    color: #000;
+}
+.nav-item::before{
+    content: '';
+    display: block;
+    height: 3px;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    width: 0;
+    transition: all ease-in-out 300ms;
+}
+.nav-item:hover::before{
+    width: 100%;
+}
+
+hr{
+    height: 4px;
+}
+
+#about .container{
+    display: flex;
+}
+img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;  
+}
+.bckimg{
+    width: 100%;
+    height:auto%;
+    border:5px solid #333;
+    box-sizing:border-box;
+}
+/*.col-lg-12 .col-md-12 .col-sm-12 .col-xs-12{
+    width: auto;
+    height: auto;
+}
+.hero-text {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.greetings h1, h5{
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+.greetings h5{
+    font-family: sans-serif;
+    font-style: oblique;
+}*/
+#about img{
+    width: 100%;
+    height: auto;
+}
+.row .card-title mt-3{
+    font-family: "Times New Roman", Times, serif;
+}
+.card-body:hover{
+    color: #d90429;
+}
+.fa{
+    font-size: 40px;
+    align-self: center;
+
+}
+.portfolio li{
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.fa-link {
+    font-size: 20px;
+}
+.fa-link:hover {
+    color: #d90429;
+}
+button:hover{
+    color: #d90429;
+}
+.socials i{
+    padding-left: 200px;
+    padding-top: 5px;
+}
+.fa-youtube-play:hover,.fa-instagram:hover,.fa-twitter-square:hover,.fa-linkedin:hover {
+    color: #d90429;
+}
+body {
+    background: #b3c0a4;
+    margin: 0%;
+}
+footer{
+    position: relative; bottom:0;
+    width: 100%;
+    height: auto;
+    background-color: #c57b57;
+    align-items: center;
+}
