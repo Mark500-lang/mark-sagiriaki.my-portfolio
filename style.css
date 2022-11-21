@@ -58,7 +58,7 @@ img{
     border:5px solid #333;
     box-sizing:border-box;
 }
-/*.col-lg-12 .col-md-12 .col-sm-12 .col-xs-12{
+.col-lg-12 .col-md-12 .col-sm-12 .col-xs-12{
     width: auto;
     height: auto;
 }
@@ -80,7 +80,7 @@ img{
 .greetings h5{
     font-family: sans-serif;
     font-style: oblique;
-}*/
+}
 #about img{
     width: 100%;
     height: auto;
